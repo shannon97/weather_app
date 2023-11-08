@@ -1,46 +1,41 @@
-# WEATHER APP
+# WEATHER APP - SheCodes Plus Program Project
 
 ## Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
 
-Process csv files containing data about the weather,and convert them into meaningful text-based summaries.
+This Python project had the class define a series of functions in order to process csv files containing data about the weather, and convert them into meaningful text-based summaries.
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Some code had been provided to help get started, a copy of the original files can be located here:
 
-### Prerequisites
+https://github.com/SheCodesAus/plus-weather-project-template
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+### Project Requirements
 
 ```
-Give the example
+Main Goal: To make all of the tests pass!
 ```
+No changes allowed to anything in the tests/ directory or run_tests.py file (aside from commenting some tests out while are working to see one run at a time).
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
+The contents of the weather.py file will be copied into a new directory and run against the original tests.
 
 ## Usage <a name = "usage"></a>
 
-Add notes about how to use the system.
+To test the code, run the run_tests.py file in the terminal.
+
+All tests need to pass to be successful (which they do thankfully!...phew!)
+
+![Test 1/8](Screenshots/1-ConvertDateTests.png)
+![Test 2/8](Screenshots/2-ConvertTempTests.png)
+![Test 3/8](Screenshots/3-CalculateMeanTests.png)
+![Test 4/8](Screenshots/4-LoadCSVTests.png)
+![Test 5/8](Screenshots/5-FindMinTests.png)
+![Test 6/8](Screenshots/6-FindMaxTests.png)
+![Test 7/8](Screenshots/7-GenerateSummaryTests.png)
+![Test 8/8](Screenshots/8-GenerateDailySummaryTests.png)
